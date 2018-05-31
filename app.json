@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/messages/index",
+    "pages/qiao/index",
+    "pages/company/index",
+    "pages/contact/index",
+    "pages/mine/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "QiaoOA-乔爸的妙言",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#f96c00",
+    "backgroundColor": "#eee",
+    "borderStyle": "#a8a8a8",
+    "list": [
+      {
+        "pagePath": "pages/messages/index",
+        "text": "消息",
+        "iconPath":"images/message.png",
+        "selectedIconPath":"images/message-selected.png"
+      },
+      {
+        "pagePath": "pages/qiao/index",
+        "text": "QIAO",
+        "iconPath":"images/qiao.png",
+        "selectedIconPath":"images/qiao-selected.png"
+      },
+      {
+        "pagePath": "pages/company/index",
+        "text": "公司",
+        "iconPath":"images/company.png",
+        "selectedIconPath":"images/company-selected.png"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "text": "通讯录",
+        "iconPath":"images/contact.png",
+        "selectedIconPath":"images/contact-selected.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath":"images/mine.png",
+        "selectedIconPath":"images/mine-selected.png"
+      }
+    ]
+  }
+}
